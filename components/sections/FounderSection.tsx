@@ -35,37 +35,22 @@ export default function FounderSection() {
             transition={{ duration: 0.7 }}
             className="flex flex-col items-center lg:items-start"
           >
-            {/* Photo placeholder */}
-            {/* TODO: Replace with real photo */}
             <div
-              className="relative mb-8 flex h-72 w-72 items-center justify-center overflow-hidden rounded-3xl md:h-80 md:w-80"
+              className="relative mb-8 flex h-72 w-72 items-center justify-center overflow-hidden rounded-3xl border md:h-80 md:w-80"
               style={{
-                background:
-                  "linear-gradient(135deg, #112240 0%, #1a2f52 50%, #112240 100%)",
-                border: "2px solid rgba(245,163,32,0.2)",
+                borderColor: "rgba(245,163,32,0.2)",
                 boxShadow: "0 0 40px rgba(245,163,32,0.08)",
               }}
             >
-              {/* Geometric background decoration */}
-              <div
-                className="absolute inset-0"
-                style={{
-                  background:
-                    "radial-gradient(circle at 30% 30%, rgba(245,163,32,0.1) 0%, transparent 60%), radial-gradient(circle at 70% 70%, rgba(0,212,255,0.06) 0%, transparent 50%)",
-                }}
+              <img
+                src="/edison.png"
+                alt="Edison Santiago Saavedra"
+                className="h-full w-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
               />
-              {/* Initials */}
-              <span
-                className="font-sora relative z-10 text-5xl font-bold"
-                style={{ color: "#F5A320" }}
-              >
-                ES
-              </span>
-              {/* Decorative circle */}
               <div
-                className="absolute -bottom-4 -right-4 h-24 w-24 rounded-full opacity-20"
+                className="absolute inset-0 pointer-events-none"
                 style={{
-                  background: "linear-gradient(135deg, #F5A320, #D4891A)",
+                  background: "linear-gradient(0deg, rgba(11,22,40,0.6) 0%, transparent 40%)",
                 }}
               />
             </div>

@@ -2,12 +2,12 @@ export const SITE_CONFIG = {
   name: "Tecnofin",
   tagline: "Entregamos soluciones de crédito para tus clientes",
   url: "https://tecnofin.ec",
-  phone: "+593XXXXXXXXX",
-  phoneDisplay: "+593 XX XXX XXXX",
+  phone: "+593992744305",
+  phoneDisplay: "+593 99 274 4305",
   email: "info@tecnofin.ec",
   linkedin: "https://www.linkedin.com/in/edison-santiago-saavedra",
   whatsapp: {
-    base: "https://wa.me/593XXXXXXXXX",
+    base: "https://wa.me/593992744305",
     messages: {
       home: "Hola%2C%20me%20interesa%20conocer%20las%20soluciones%20de%20Tecnofin%20para%20mi%20institución",
       cartera365: "Hola%2C%20quiero%20una%20demo%20de%20Cartera%20365%20para%20nuestra%20cooperativa",

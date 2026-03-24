@@ -144,24 +144,18 @@ export default function NosotrosClient() {
                 className="relative mx-auto flex max-w-xs flex-col items-center overflow-hidden rounded-3xl border"
                 style={{ backgroundColor: "#112240", borderColor: "rgba(245,163,32,0.2)" }}
               >
-                {/* Avatar placeholder */}
-                <div
-                  className="flex w-full items-center justify-center"
-                  style={{ height: "320px", background: "linear-gradient(135deg, rgba(0,212,255,0.08) 0%, rgba(245,163,32,0.08) 100%)" }}
-                >
-                  <div className="text-center">
-                    <div
-                      className="mx-auto mb-3 flex h-24 w-24 items-center justify-center rounded-full"
-                      style={{ backgroundColor: "rgba(245,163,32,0.12)", border: "2px solid rgba(245,163,32,0.3)" }}
-                    >
-                      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#F5A320" strokeWidth="1.5">
-                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
-                        <circle cx="12" cy="7" r="4" />
-                      </svg>
-                    </div>
-                    <p className="font-sora text-sm font-semibold" style={{ color: "#F5A320" }}>Edison S. Saavedra</p>
-                    <p className="text-xs" style={{ color: "#B0BEC5" }}>Fundador & CEO</p>
-                  </div>
+                <div className="relative w-full" style={{ height: "320px" }}>
+                  <img
+                    src="/edison.png"
+                    alt="Edison Santiago Saavedra"
+                    className="h-full w-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                  />
+                  <div
+                    className="absolute inset-0 pointer-events-none"
+                    style={{
+                      background: "linear-gradient(to top, #112240 0%, transparent 40%)",
+                    }}
+                  />
                 </div>
 
                 {/* Credentials under photo */}
