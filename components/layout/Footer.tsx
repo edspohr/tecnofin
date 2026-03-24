@@ -113,7 +113,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/10 text-center text-gray-soft text-sm">
-          © 2025 Tecnofin. Todos los derechos reservados.
+          © 2026 Tecnofin. Todos los derechos reservados.
         </div>
       </div>
     </footer>

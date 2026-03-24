@@ -94,7 +94,7 @@ El contenido del artículo escrito en Markdown va aquí...
 
 - [x] Reemplazar la foto provisional de Edison en `FounderSection.tsx` y `NosotrosClient.tsx`.
 - [x] Actualizar el número de teléfono en `/lib/config.ts`.
-- [ ] Actualizar la URL de LinkedIn en `/lib/config.ts`.
+- [x] Actualizar la URL de LinkedIn en `/lib/config.ts`.
 - [ ] Añadir la etiqueta de Google Analytics 4 (reemplazar el valor provisional en `layout.tsx`).
 - [ ] Añadir logos reales de instituciones financieras (si están disponibles).
 - [ ] Revisar y finalizar todos los textos con el cliente.

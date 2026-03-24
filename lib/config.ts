@@ -5,7 +5,7 @@ export const SITE_CONFIG = {
   phone: "+593992744305",
   phoneDisplay: "+593 99 274 4305",
   email: "info@tecnofin.ec",
-  linkedin: "https://www.linkedin.com/in/edison-santiago-saavedra",
+  linkedin: "https://www.linkedin.com/in/edisonsaavedra/",
   whatsapp: {
     base: "https://wa.me/593992744305",
     messages: {
